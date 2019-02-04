@@ -1,0 +1,53 @@
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+.nav-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo {
+	font-size: 22px;
+	color: #041122;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.navigation	{
+	font-style: 22px;
+	font-weight: 600;
+	padding-top: 5px;
+}
+
+.navigation_link {
+	color: #52575D;
+	text-decoration: none;
+	margin-right: 15px;
+}
+
+.navigation_link:hover, .navigation_link:active, .navigation_link:focus {
+	color: #f72464;
+	text-decoration: none;
+}
+
+.cart {
+	padding-top: 12px;
+	color: #5e5e5e;
+	position: relative;
+}
+
+.cart_number {
+	width: 19px;
+	height: 19px;
+	background-color: #f72464;
+	border-radius: 10px;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 1px;
+	position: absolute;
+	left: 8px;
+	top: 20px;
+}
