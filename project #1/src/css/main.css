@@ -51,3 +51,75 @@ body {
 	left: 8px;
 	top: 20px;
 }
+
+.header {
+	position: relative;
+	height: 700px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.header .container {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header_bg {
+	position: absolute;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	left: 42%;
+	top: 0;
+	background-color: f8f8f8;
+	background-image: url(../img/bg/girl.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	z-index: -1;
+}
+
+.header_content {
+	width: 750px;
+}
+
+.header_title {
+	color: #222;
+	font-size: 80px;
+	font-family: 'Lora', serif;
+	line-height: 1.25;
+	margin-bottom: 30px;
+}
+
+.header_description {
+	color: #52575D;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 50px;
+}
+
+.header_button {
+	background-color: #F72464;
+	font-style: 20px;
+	color: #FFF;
+	font-family: 'Lora', serif;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 12px;
+	height: 50px;
+	display: inline-block;
+	border-radius: 5px;
+  	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.3);
+  	text-decoration: none;
+  	transition: all 0.2s ease-in;
+}
+
+.header_button:hover {
+	background-color: #DA0F4D;
+	text-decoration: none;
+	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+	color: #FFF;
+
+}
