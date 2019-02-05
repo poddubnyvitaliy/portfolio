@@ -182,7 +182,7 @@ body {
   	border-radius: 3px;
   	height: 38px;
   	font-size: 14px;
-  	font-family: "Lora";
+	font-family: 'Lora', serif;
   	color: rgb(145, 145, 145);
   	text-transform: uppercase;
   	line-height: 1;
@@ -193,13 +193,118 @@ body {
   	margin-left: auto;
   	margin-right: auto;
   	margin-top: 40px;
-  	margin-bottom: 100px;
+  	margin-bottom: 10px;
   	transition: all 0.3s ease-in;
 }
 
 .button_outline:hover {
 	background-color: #DA0F4D;
 	text-decoration: none;
-	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.4);
+	color: #FFF;
+}
+
+.adv-wrapper {
+	height: 185px;
+	background-color: #000
+}
+
+.adv-wrapper-bg-1 {
+	background-image: url(../img/bg/bg-advert-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.adv-wrapper-bg-2 {
+	background-image: url(../img/bg/bg-advert-2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+
+}
+
+.adv-content-center {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.adv_title {
+	font-size: 60px;
+  	color: rgb(255, 255, 255);
+  	font-family: 'Lora', serif;
+  	line-height: 1.2;
+
+}
+
+.adv_button {
+	border-radius: 3px;
+  	background-color: rgb(247, 36, 100);
+  	box-shadow: 0px 5px 30px 0px rgba(31, 35, 37, 0.25);
+  	height: 55px;
+  	line-height: 1;
+  	color: #FFF;
+  	font-size: 22px;
+  	padding: 15px 50px;
+  	font-family: 'Lora', serif;
+  	transition: all 0.2s ease-in;
+  	text-decoration: none;
+
+}
+
+.adv_button:hover {
+	background-color: #DA0F4D;
+	text-decoration: none;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.title-2 {
+	font-family: 'Lora', serif;
+	font-size: 35px;
+	color: #222;
+	margin-bottom: 5px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.subtitle-2 {
+	font-size: 12px;
+	color: #919191;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.button_outline-2 {
+  	border-width: 1px;
+  	border-color: rgb(247, 36, 100);
+  	border-style: solid;
+  	border-radius: 3px;
+  	height: 38px;
+  	font-size: 14px;
+	font-family: 'Lora', serif;
+  	color: rgb(145, 145, 145);
+  	text-transform: uppercase;
+  	line-height: 1;
+  	padding-top: 11px;
+  	width: 220px;
+  	text-align: center;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 40px;
+  	margin-bottom: 10px;
+  	transition: all 0.3s ease-in;
+}
+
+.button_outline-2:hover {
+	background-color: #DA0F4D;
+	text-decoration: none;
 	color: #FFF;
 }
